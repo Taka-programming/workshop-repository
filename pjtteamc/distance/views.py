@@ -10,3 +10,4 @@ class DistanceListView(ListView):
 
     def queryset(self):
         return Distance.objects.all()
+
